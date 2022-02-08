@@ -15,3 +15,11 @@ sec = 64852
 type_result = time.gmtime(sec)
 result = time.strftime("%H:%M:%S",type_result)
 print(result)
+
+#третье задание
+number = int(input("Введите число: "))
+res = str(number)
+n1 = res + res
+n2 = res + res + res
+comp = number + int(n1) + int(n2)
+print("Итог:", comp)
