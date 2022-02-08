@@ -1,6 +1,10 @@
-number = int(input("Введите число: "))
-res = str(number)
-n1 = res + res
-n2 = res + res + res
-comp = number + int(n1) + int(n2)
-print("Результат равен:", comp)
+x = int(input("Введите число: "))
+m = 0
+while (x):
+    if (x % 10 > m):
+        m = x % 10
+    x //= 10
+
+print(m)
+
+
