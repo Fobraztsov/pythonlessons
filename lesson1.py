@@ -38,3 +38,17 @@ while (x):
     x //= 10
 
 print(m)
+
+#5-6 задание
+sum = int(input("Введите общую сумму: "))
+outlay = int(input("Введите сумму издержек: "))
+if sum > outlay:
+    profit = sum-outlay
+    rent = profit/sum
+    print(f"Отлично. Ваш профит {profit} ")
+    worker = int(input("Число работников фирмы: "))
+    print(f"{profit/worker} прибыль на каждого работника")
+elif sum == outlay:
+    print("нулевой оборот")
+else:
+    print("Желаем эффективной работы")
